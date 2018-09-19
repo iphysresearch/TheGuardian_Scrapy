@@ -1,4 +1,5 @@
-[TOC]
+> 该项目代码来源于“数据科学实训营第3期”的爬虫项目 case 习作。—— 2017.8.3
+>
 
 ### 主要内容
 
@@ -66,7 +67,6 @@ Scrapy框架爬取英文新闻站点：https://www.theguardian.com 的部分子�
 4. `setup.py` 和commands文件夹的设置都是为了实现多spiders同步爬取，详细请见([REF](http://www.cnblogs.com/skying555/p/5296312.html))
 
 5. `dns_cache.py` 和在每个spider中的代码 `from Eng_news.items import EngNewsItem` 以及  `_setDNSCache()` 是DNS解析缓存提高效率用的([REF](http://blog.csdn.net/bone_ace/article/details/55000101))。
-
 
 ### 附：
 
